@@ -1,0 +1,12 @@
+set background=dark
+set wrap
+set expandtab
+if has("gui_running")
+	" Hides toolbar and scrollbars and File menu
+	set guioptions=egt
+
+	" Highlights the current line background
+	set cursorline
+	colorscheme default
+endif
+
